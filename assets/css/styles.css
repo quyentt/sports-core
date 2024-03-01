@@ -1921,3 +1921,13 @@ a {
   color: #fff;
   text-decoration: underline;
 }
+
+.modal .detail-content {
+  padding: 10px 10px 20px;
+}
+
+.chat-content .chat-item .member span {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  margin-left: 15px;
+}
