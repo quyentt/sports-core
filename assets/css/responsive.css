@@ -1,0 +1,8 @@
+@media (max-width: 560px) {
+  .register-form-item {
+    width: 100%;
+  }
+  .login-content {
+    padding: 50px 20px;
+  }
+}
