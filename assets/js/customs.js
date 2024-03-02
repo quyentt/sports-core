@@ -25,4 +25,13 @@ $(document).ready(function () {
     },
     loop: true,
   });
+  // calendar show
+  $(".calendar-btn").click(function () {
+    $(".calendar-wrap").addClass("show");
+  });
+  $(".calendar-wrap").click(function (e) {
+    if (!$(e.target).closest(".calendar").length) {
+      $(this).removeClass("show");
+    }
+  });
 });
